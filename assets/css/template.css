@@ -1,6 +1,7 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -38,7 +39,6 @@ nav a{
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
     color: #727272;
 }
 
@@ -49,8 +49,85 @@ nav a:hover{
 }
 
 section#banner{
+    display: flex;
+    justify-content: center;
     background-image: url(../images/img1.jpg);
     background-position: center;
     background-size: cover;
     height: 670px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.banner-headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+    
+}
+
+.banner-headline h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.575);
+}
+
+.banner-headline h2{
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.575);
+}
+
+.banner-options{
+    display: flex;
+    height: 210px;
+    
+}
+
+.banner1, .banner2, .banner3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.banner1{
+    background-color: #39aae1;
+}
+
+.banner2{
+    background-color: #0079c7;
+}
+
+.banner3{
+    background-color: #2b4c99;
+}
+
+.banner-title{
+    font-size: 20px;
+}
+
+.banner-desc{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-options a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 6px;
+    color: white;
+}
+
+.banner-opening-hours{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #0079c7;    
 }

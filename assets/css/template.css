@@ -163,6 +163,21 @@ section#geral{
     margin-top: 10px;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article a{
+    text-decoration: none;
+}
+
 article .news-data{
     display: flex;
 }
@@ -183,6 +198,23 @@ article .news-coments{
 }
 
 article .news-thumbnail{
+    margin-top: 30px;
+}
+article .news-thumbnail img{
     width: 100%;
     height: auto;
+}
+
+article .news-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+article .news-resume{
+    font-size: 15px;
+    color: #5c5c5c;
+    line-height: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
 }

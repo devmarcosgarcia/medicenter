@@ -227,7 +227,7 @@ footer{
 
 .footer-menu{
     display: flex;
-    flex: 1;
+    
 }
 
 .fm1, .fm2, .fm3{
@@ -246,4 +246,39 @@ footer{
 
 .fm3{
     background-color: #2b4c99;
+}
+
+.footer-menu-title{
+    font-size: 20px;
+}
+
+.footer-menu-resume{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+.footer-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-area-item{
+    flex: 1;
+    color: white;
+}
+
+.footer-area-item .widget-title-text{
+    color: white;
+}
+
+.footer-copy{
+    border-top: 1px solid #2c2c2cda;
+    color: white;
+    height: 40px;
+    line-height: 40px;
 }

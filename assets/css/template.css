@@ -218,3 +218,32 @@ article .news-resume{
     margin-bottom: 30px;
     text-align: justify;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+
+.footer-menu{
+    display: flex;
+    flex: 1;
+}
+
+.fm1, .fm2, .fm3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.fm1{
+    background-color: #39aae1;
+}
+
+.fm2{
+    background-color: #0079c7;
+}
+
+.fm3{
+    background-color: #2b4c99;
+}
